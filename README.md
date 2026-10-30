@@ -1,4 +1,6 @@
-# Помощник по 105 командам для блога
+# nekrassovna-komanda
+
+Помощник по 105 командам для блога
 
 Помощник Виктории Некрасовой объясняет, какую команду выбрать, как написать запрос и что делать с ответом
 Человек осваивает команды на собственной задаче
@@ -54,7 +56,7 @@ tg://resolve?domain=reels_nekrasovabot&start=video
 
 ## Прямая ссылка для нейросети
 
-https://raw.githubusercontent.com/aanekrass/vika-blog-assistant/main/blog-assistant.md
+https://raw.githubusercontent.com/aanekrass/nekrassovna-komanda/main/blog-assistant.md
 
 Промт запуска закреплён за проверенной версией файла, чтобы избежать старой копии по обновляемому адресу
 При выпуске новой инструкции обновляй ссылку и отметку окончания в промте
