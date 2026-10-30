@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-30",
+  "browser": "Chrome incognito",
+  "signedIn": false,
+  "newConversations": 2,
+  "promptLines": 2,
+  "promptCharactersIncludingFinalNewline": 399,
+  "promptSha256": "ebde6ad314acee29a9994e891ed50f908bbbe3bc8f4c23436584abf678906fdb",
+  "guideSha256": "fec3e273f4bf70d09d0bbc77b52d126cf72f11aa81dcb8ade5c6c84af44f8197",
+  "guideUnchanged": true,
+  "passed": [
+    {
+      "case": "A: no ideas for Reels",
+      "observed": "/BRAINSTORM plus a code block beginning with /BRAINSTORM"
+    },
+    {
+      "case": "A: explicit /BRAINSTORM with niche and five ideas",
+      "observed": "Five ideas executed, no repeated onboarding or permission loop"
+    },
+    {
+      "case": "A: exact catalogue readback",
+      "observed": "040 /ACTIONFIGURE, 073 /FLASH, 092 /CTA names and complete templates match the file"
+    },
+    {
+      "case": "B: fresh conversation startup",
+      "observed": "Guide acknowledgement and question about task"
+    }
+  ],
+  "notCompleted": [
+    {
+      "case": "B: request for first phrases",
+      "reason": "Guest message limit, classified as quota block rather than prompt failure"
+    }
+  ],
+  "limits": [
+    "Two fresh conversations shared the same guest quota",
+    "No registered ChatGPT Free account test",
+    "Claude and complete natural masterclass delivery not tested",
+    "Successful samples do not guarantee every future model response"
+  ],
+  "cleanup": {
+    "ownTestTabsClosed": true,
+    "originalUserTabPreserved": true,
+    "unusedJsKernelReset": true
+  }
+}
