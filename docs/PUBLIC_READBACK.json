@@ -1,0 +1,14 @@
+{
+  "version": "1.0.1",
+  "url": "https://raw.githubusercontent.com/aanekrass/vika-blog-assistant/main/blog-assistant.md",
+  "http": 200,
+  "bytes": 50146,
+  "sha256": "fec3e273f4bf70d09d0bbc77b52d126cf72f11aa81dcb8ade5c6c84af44f8197",
+  "localExact": true,
+  "commands": 105,
+  "complete": true,
+  "pinnedUrl": "https://raw.githubusercontent.com/aanekrass/vika-blog-assistant/7c1974cd71416c7c5f1a22328770e76bbc742209/blog-assistant.md",
+  "pinnedHttp": 200,
+  "pinnedLocalExact": true,
+  "sourceCommit": "7c1974cd71416c7c5f1a22328770e76bbc742209"
+}
