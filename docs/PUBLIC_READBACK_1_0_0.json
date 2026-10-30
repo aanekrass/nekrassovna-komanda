@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/aanekrass/vika-blog-assistant/main/blog-assistant.md",
+  "http": 200,
+  "bytes": 49684,
+  "sha256": "fb60707206489de770c344d55738da77b498c46ed037146a18b9fc3540a78f1e",
+  "localExact": true,
+  "commands": 105,
+  "complete": true,
+  "version": "1.0.0",
+  "commit": "9cbedebb677085f20bb72c22c2eab90d302680f9"
+}
