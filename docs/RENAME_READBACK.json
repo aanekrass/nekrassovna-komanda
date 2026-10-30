@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-30T18:47:03.840101+00:00",
+  "oldName": "vika-blog-assistant",
+  "newName": "nekrassovna-komanda",
+  "isPrivate": false,
+  "guideUnchanged": true,
+  "readbacks": [
+    {
+      "url": "https://raw.githubusercontent.com/aanekrass/nekrassovna-komanda/7c1974cd71416c7c5f1a22328770e76bbc742209/blog-assistant.md",
+      "http": 200,
+      "finalUrl": "https://raw.githubusercontent.com/aanekrass/nekrassovna-komanda/7c1974cd71416c7c5f1a22328770e76bbc742209/blog-assistant.md",
+      "exact": true,
+      "sha256": "fec3e273f4bf70d09d0bbc77b52d126cf72f11aa81dcb8ade5c6c84af44f8197"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aanekrass/vika-blog-assistant/7c1974cd71416c7c5f1a22328770e76bbc742209/blog-assistant.md",
+      "http": 200,
+      "finalUrl": "https://raw.githubusercontent.com/aanekrass/vika-blog-assistant/7c1974cd71416c7c5f1a22328770e76bbc742209/blog-assistant.md",
+      "exact": true,
+      "sha256": "fec3e273f4bf70d09d0bbc77b52d126cf72f11aa81dcb8ade5c6c84af44f8197"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aanekrass/nekrassovna-komanda/main/blog-assistant.md",
+      "http": 200,
+      "finalUrl": "https://raw.githubusercontent.com/aanekrass/nekrassovna-komanda/main/blog-assistant.md",
+      "exact": true,
+      "sha256": "fec3e273f4bf70d09d0bbc77b52d126cf72f11aa81dcb8ade5c6c84af44f8197"
+    }
+  ]
+}
