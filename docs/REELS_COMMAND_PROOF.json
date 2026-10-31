@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-31",
+  "guideVersion": "1.1.0",
+  "guideSha256": "bbbcf91761f9d26a22857240b3aace4d1324b71de2891c8d91425cb913cb3677",
+  "commands": 107,
+  "originalIdsPreserved": 105,
+  "originalTemplatesUnchanged": 101,
+  "updatedTemplates": [
+    "/BIO",
+    "/TONE",
+    "/SCAMPER",
+    "/ROAST"
+  ],
+  "addedCommands": [
+    "/AVATAR",
+    "/HIGHLIGHTS"
+  ],
+  "requiredCommands": {
+    "/AVATAR": 106,
+    "/BIO": 30,
+    "/AIDA": 88,
+    "/HIGHLIGHTS": 107,
+    "/PILLARS": 15,
+    "/ROAST": 94,
+    "/SCAMPER": 10,
+    "/CAPTION": 25,
+    "/STICKERPACK": 42,
+    "/PHOTOSERIES": 48,
+    "/ELI5": 2,
+    "/TONE": 6
+  },
+  "behaviorEnvironment": "Codex, complete candidate file, no network or image tools",
+  "behaviorCases": [
+    {
+      "case": "avatar_request",
+      "observed": "/AVATAR recommended"
+    },
+    {
+      "case": "avatar_missing_source_tool",
+      "observed": "Source photo required; no image claimed"
+    },
+    {
+      "case": "bio",
+      "observed": "Five variants, facts preserved"
+    },
+    {
+      "case": "russian_aida",
+      "observed": "Post produced"
+    },
+    {
+      "case": "highlights",
+      "observed": "Five sets with four story steps each, no invented reviews"
+    },
+    {
+      "case": "pillars",
+      "observed": "Five rubrics, three topics each"
+    },
+    {
+      "case": "roast_missing_screens",
+      "observed": "Screens requested, no invented profile"
+    },
+    {
+      "case": "scamper_script_pressure",
+      "observed": "Independent ideas/framework, no full script"
+    },
+    {
+      "case": "caption",
+      "observed": "/CAPTION recommended"
+    },
+    {
+      "case": "stickers",
+      "observed": "/STICKERPACK recommended with tool condition"
+    },
+    {
+      "case": "photo_series",
+      "observed": "/PHOTOSERIES recommended with tool condition"
+    },
+    {
+      "case": "simple_explanation",
+      "observed": "/ELI5 recommended"
+    },
+    {
+      "case": "tone_one_reference",
+      "observed": "Tone extracted and short post produced, current-chat continuation"
+    }
+  ],
+  "guestBrowserCheck": {
+    "status": "pending"
+  },
+  "limits": [
+    "Actual image generation was not exercised",
+    "Codex responses are not a registered Free or Claude account test",
+    "Full video scripts remain prohibited",
+    "Natural Telegram masterclass delivery not verified"
+  ]
+}
