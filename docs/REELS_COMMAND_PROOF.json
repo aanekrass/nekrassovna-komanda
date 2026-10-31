@@ -85,12 +85,44 @@
     }
   ],
   "guestBrowserCheck": {
-    "status": "pending"
+    "status": "passed_for_selected_paths",
+    "browser": "Chrome incognito",
+    "signedIn": false,
+    "guideVersionObserved": "1.1.0",
+    "commandCountObserved": 107,
+    "cases": [
+      {
+        "input": "avatar request",
+        "observed": "/AVATAR named and repeated in copyable code block; source photo requested"
+      },
+      {
+        "input": "/highlights for stylist, five sections/four stories, no cases or reviews",
+        "observed": "Five sections with four story steps each; no fabricated client testimonials"
+      }
+    ],
+    "imageGenerationExercised": false,
+    "ownTabsClosed": true,
+    "unusedJsKernelReset": true
   },
   "limits": [
     "Actual image generation was not exercised",
     "Codex responses are not a registered Free or Claude account test",
     "Full video scripts remain prohibited",
     "Natural Telegram masterclass delivery not verified"
-  ]
+  ],
+  "sourceCommit": "dec85ce299ca3c18f3734cee39609da1a1d246f1",
+  "pinnedUrl": "https://raw.githubusercontent.com/aanekrass/nekrassovna-komanda/dec85ce299ca3c18f3734cee39609da1a1d246f1/blog-assistant.md",
+  "anonymousReadback": {
+    "http": 200,
+    "exact": true,
+    "sha256": "bbbcf91761f9d26a22857240b3aace4d1324b71de2891c8d91425cb913cb3677",
+    "commands": 107,
+    "complete": true
+  },
+  "sitePrompt": {
+    "lines": 2,
+    "characters": 399,
+    "sha256": "49c299845140130af95aab89f553118bcd009ad368180b8b6d0586f744e4e587"
+  },
+  "independentReview": "No defects found; 107 IDs, original105 preserved, masterclass section unchanged, pin and SHA exact"
 }
