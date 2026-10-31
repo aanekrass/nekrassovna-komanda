@@ -1,0 +1,11 @@
+{
+  "guideVersion": "1.2.0",
+  "guideSha256": "ace2c48db2197bdd9f18c14eeb641571e4bf9c9d1091de455f2cd8bf97af4ced",
+  "commands": 107,
+  "categories": 16,
+  "all107TemplatesUnchanged": true,
+  "masterclassSectionUnchanged": true,
+  "baseline": "Startup showed zero categories and no full-list option",
+  "behavior": "pending",
+  "guestBrowser": "pending"
+}
