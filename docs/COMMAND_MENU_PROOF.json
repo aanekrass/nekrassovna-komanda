@@ -1,0 +1,50 @@
+{
+  "guideVersion": "1.2.0",
+  "guideSha256": "ace2c48db2197bdd9f18c14eeb641571e4bf9c9d1091de455f2cd8bf97af4ced",
+  "commands": 107,
+  "categories": 16,
+  "all107TemplatesUnchanged": true,
+  "masterclassSectionUnchanged": true,
+  "baseline": "Startup showed zero categories and no full-list option",
+  "behavior": {
+    "environment": "Codex subagent, complete guide, no network/image tool",
+    "cases": {
+      "startup": "16sections+all-list option",
+      "section2": "6correct commands",
+      "fullList": "107exact ordered commands,16sections, no omissions or duplicates",
+      "bio": "5variants, no fake facts",
+      "startupWithTask": "16sections then AVATAR recommendation"
+    },
+    "rootReadAllResponses": true,
+    "noMasterclassOnBrowsing": true
+  },
+  "guestBrowser": {
+    "browser": "Chrome incognito",
+    "signedIn": false,
+    "startup": "16sections,32example aliases,all-list option",
+    "fullList": "107exact ordered aliases in16sections, no omissions or duplicates",
+    "section16": "AVATAR and HIGHLIGHTS shown, no execution or brief",
+    "initialAttempt": "Expanded all107at startup; launch refined and repeated",
+    "registeredFreeOrClaudeTest": false
+  },
+  "sourceCommit": "a53ce5c735f11abc15a089edbf400cce81b93bdb",
+  "pinnedUrl": "https://raw.githubusercontent.com/aanekrass/nekrassovna-komanda/a53ce5c735f11abc15a089edbf400cce81b93bdb/blog-assistant.md",
+  "anonymousReadback": {
+    "http": 200,
+    "exact": true,
+    "sha256": "ace2c48db2197bdd9f18c14eeb641571e4bf9c9d1091de455f2cd8bf97af4ced",
+    "complete": true
+  },
+  "sitePrompt": {
+    "lines": 2,
+    "characters": 482,
+    "sha256": "715d91f2a788325affbfe0bb2931d7e3e108a2ddad2b1a940fdfbd04b4c930e8"
+  },
+  "initialGuestAttempt": "Expanded menu into all107; revised launch to16sections with2examples, full107 on request",
+  "limits": [
+    "No registered Free or Claude account tested",
+    "No actual image generation or natural Telegram masterclass delivery",
+    "Website/editor/bot runtime unchanged",
+    "Existing chats require new prompt or reread"
+  ]
+}
